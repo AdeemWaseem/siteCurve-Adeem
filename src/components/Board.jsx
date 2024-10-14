@@ -25,12 +25,18 @@ const Board = () => {
 
       {/* Tab Navigation Bar */}
       <div className="flex space-x-4 mb-10">
-        <button className="px-2 md:px-4 flex items-center py-1 md:py-2 bg-white font-semibold text-base md:text-xl text-primary-link rounded border-2 border-primary-link">
-          <img src={ArrowRight} className="w-[24px] h-[24px] mr-1" />
+        <button className="px-1 md:px-4 flex items-center py-1 md:py-2 bg-white font-semibold text-base md:text-xl text-primary-link rounded border-2 border-primary-link">
+          <img
+            src={ArrowRight}
+            className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] mr-1"
+          />
           Winners & Losers
         </button>
-        <button className="flex items-center md:px-4 px-2 py-1 md:py-2 bg-white font-semibold text-base md:text-xl text-gray-dark rounded border">
-          <img src={Badge} className="w-[24px] h-[24px] mr-1" />
+        <button className="flex items-center md:px-4 px-1 py-1 md:py-2 bg-white font-semibold text-base md:text-xl text-gray-dark rounded border">
+          <img
+            src={Badge}
+            className="w-[18px] h-[18px] md:w-[24px] md:h-[24px] mr-1"
+          />
           Leaderboards
         </button>
         <button className="hidden md:flex items-center px-4 py-2 bg-white font-semibold text-xl text-gray-dark rounded border">

@@ -37,7 +37,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       <Ticker />
 
       {/* Navigation Links */}
-      <nav className="space-y-4 divide-y divide-gray-200">
+      <nav className="space-y-4 divide-y divide-gray-200 overflow-y-auto max-h-[70vh]">
         <div>
           <a
             href="#"
@@ -110,7 +110,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
         <button className="bg-primary w-full text-white py-2 px-4 rounded hover:bg-indigo-700 mb-2">
           Create Landscape
         </button>
-        <button className="border border-indigo-muted w-full text-white py-2 px-4 rounded hover:bg-indigo-600 hover:text-white">
+        <button className="border border-indigo-muted w-full text-white py-2 px-4 rounded bg-indigo hover:bg-indigo-600 hover:text-white">
           Discover Landscapes
         </button>
       </div>
