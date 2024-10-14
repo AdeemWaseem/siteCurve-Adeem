@@ -37,7 +37,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       <Ticker />
 
       {/* Navigation Links */}
-      <nav className="space-y-4 divide-y divide-gray-200 overflow-y-auto max-h-[70vh]">
+      <nav className="space-y-4 divide-y divide-gray-200 overflow-y-auto max-h-[55vh] overflow-x-hidden">
         <div>
           <a
             href="#"
@@ -106,7 +106,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
       </nav>
 
       {/* Buttons */}
-      <div className="absolute bottom-0 inset-x-0 p-4">
+      <div className="absolute bg-indigo bottom-0 inset-x-0 p-4">
         <button className="bg-primary w-full text-white py-2 px-4 rounded hover:bg-indigo-700 mb-2">
           Create Landscape
         </button>
